@@ -1,0 +1,7 @@
+numpy
+pandas
+PySimpleGUI
+icecream
+openpyxl
+xlrd
+xlwt

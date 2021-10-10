@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Group_by_Geisha.iml" filepath="$PROJECT_DIR$/.idea/Group_by_Geisha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Projekt_lijstbewerken-master/.idea/Projekt_lijstbewerken.iml" filepath="$PROJECT_DIR$/../Projekt_lijstbewerken-master/.idea/Projekt_lijstbewerken.iml" />
     </modules>
   </component>
 </project>
