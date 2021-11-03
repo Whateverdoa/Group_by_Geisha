@@ -5,3 +5,4 @@ icecream
 openpyxl
 xlrd
 xlwt
+pytest

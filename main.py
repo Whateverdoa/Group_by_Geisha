@@ -56,7 +56,7 @@ else:
     groupByGeisha_dataframe = te_maken_dataframe.groupby("Artnr")
     set_van_artikelnummers = function.maak_group_set(te_maken_dataframe, "Artnr")
 
-    groupByGeisha_dataframe_kleurnum = te_maken_dataframe.groupby(["Artnr", "ColorC"])
+    groupByGeisha_dataframe_kleurnum = te_maken_dataframe.groupby(["Artnr", "ColorC", "ColorN"])
     # groupByGeisha_dataframe_kleurnum.groups
     for key in groupByGeisha_dataframe_kleurnum.groups:
         print(key)

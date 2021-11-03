@@ -5,6 +5,7 @@ import pandas as pd
 
 
 
+
 def repeater_van_files(file_in_naam, file_naam_uit, repeteer=1):
     """"with filein """
     with open(file_in_naam, "r", encoding="utf-8") as readf:
@@ -307,15 +308,17 @@ def df_group_opbreken(df_in):
     return df_lijst_als_groter_dan
 
 
-def testargsongroupcolumns(kleurnum, *args):
-        for key in kleurnum.groups:
+def testargsongroupcolumns(grouped_df, *args):
+        for key in grouped_df.groups:
             print(key)
             a, b = key
-            groupaantal = kleurnum.get_group(key).Aantal.sum()
+            groupaantal = grouped_df.get_group(key).Aantal.sum()
             # print(a,b)
-            print(kleurnum.get_group(key).Aantal.sum())
+            print(grouped_df.get_group(key).Aantal.sum())
             if groupaantal > 5000:
                 print(f'{groupaantal} > 5000')
+
+
 
 
 
